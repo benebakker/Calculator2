@@ -21,6 +21,7 @@
 		C8AEE44319ACCE89004A9257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AEE42519ACCE89004A9257 /* UIKit.framework */; };
 		C8AEE44B19ACCE89004A9257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8AEE44919ACCE89004A9257 /* InfoPlist.strings */; };
 		C8AEE44D19ACCE89004A9257 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AEE44C19ACCE89004A9257 /* CalculatorTests.m */; };
+		C8AEE45819ACE8A4004A9257 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AEE45719ACE8A4004A9257 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C8AEE44819ACCE89004A9257 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		C8AEE44A19ACCE89004A9257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8AEE44C19ACCE89004A9257 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		C8AEE45619ACE8A4004A9257 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		C8AEE45719ACE8A4004A9257 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				C8AEE43019ACCE89004A9257 /* CalculatorAppDelegate.h */,
 				C8AEE43119ACCE89004A9257 /* CalculatorAppDelegate.m */,
 				C8AEE43319ACCE89004A9257 /* Main.storyboard */,
+				C8AEE45619ACE8A4004A9257 /* CalculatorBrain.h */,
+				C8AEE45719ACE8A4004A9257 /* CalculatorBrain.m */,
 				C8AEE43619ACCE89004A9257 /* CalculatorViewController.h */,
 				C8AEE43719ACCE89004A9257 /* CalculatorViewController.m */,
 				C8AEE43919ACCE89004A9257 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				C8AEE43219ACCE89004A9257 /* CalculatorAppDelegate.m in Sources */,
 				C8AEE42E19ACCE89004A9257 /* main.m in Sources */,
+				C8AEE45819ACE8A4004A9257 /* CalculatorBrain.m in Sources */,
 				C8AEE43819ACCE89004A9257 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
